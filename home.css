@@ -1,0 +1,56 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+nav{
+    -webkit-box-shadow: 33px 24px 5px -7px rgba(0,0,0,0.75);
+-moz-box-shadow: 33px 24px 5px -7px rgba(0,0,0,0.75);
+box-shadow: 33px 24px 5px -7px rgba(0,0,0,0.75);
+background-color: rosybrown;
+}
+nav ul{
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+}
+nav li{
+    padding: 27px 30px;
+}
+nav a:first-child{
+    margin: auto;
+   
+}
+nav a{
+    text-decoration: none;
+}
+nav a:hover{
+    color: rgb(102, 4, 4);
+}
+.home{
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    margin: auto;
+}
+.copy{
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    display: flex;
+    
+}
+.features{
+    height: 100vh;
+    background: url(images/rs.jpg);
+}
+&copy{
+    justify-content: center;
+
+}
+.i{
+    width: 40%;
+
+}
+
