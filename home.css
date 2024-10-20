@@ -52,5 +52,18 @@ nav a:hover{
 .i{
     width: 40%;
 
+} .features div{
+    background-color: rgba(0,0,0,0.56);
+    border-radius: 30px;
+    width: 73%;
+    height: 20vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 50%;
+    
+}
+.features p{
+        color: beige;
 }
 
