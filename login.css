@@ -1,0 +1,60 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}body{
+    display: block;
+    text-align: center;
+}
+button{
+    box-shadow: 0 0 5px cyan, 0 0 25px cyan;
+    font-size: 1.7em;
+    font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+button:hover{
+    box-shadow: 0 0 5px cyan,
+    0 0 25px cyan, 0 0 50px cyan
+    0 0 100px cyan, 0 0 200px cyan;
+}
+.f{
+    border-radius: 30px;
+    border-style: dotted;
+    border-color: brown;
+    width: 100%;
+    background-color: brown;
+    align-items: center;
+    justify-content: center;
+    min-height: 100%;
+    display: block;
+
+}
+.f div{
+    font-family: "Inconsolata", monospace;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  
+}
+h2{
+    font-family: "Inconsolata", monospace;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+      font-size: 2.0em;
+}
+div input{
+    border-radius: 10px;
+    line-height: 20px;
+    font-size: 0.9em;
+}
+&copy{
+    display: block;
+    text-align: center;
+    font-size: 0.5em;
+
+}
